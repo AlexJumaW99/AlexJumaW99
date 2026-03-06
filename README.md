@@ -9,7 +9,6 @@
 <br/>
 
 <!-- Social Badges -->
-[![Twitter](https://img.shields.io/badge/-@manslikealex-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/manslikealex)
 [![GitHub](https://img.shields.io/badge/-AlexJumaW99-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlexJumaW99)
 [![Profile Views](https://komarev.com/ghpvc/?username=AlexJumaW99&style=for-the-badge&color=6C63FF)](https://github.com/AlexJumaW99)
 
@@ -104,7 +103,6 @@ me.say_hi()
 
 <div align="center">
 
-<a href="https://twitter.com/manslikealex"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
 <a href="https://github.com/AlexJumaW99"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 <br/><br/>
