@@ -82,9 +82,13 @@ me.say_hi()
 ---
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> GitHub Analytics
+<div align="center">
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AlexJumaW99&theme=tokyonight" />
+</div>
+
+<br/>
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AlexJumaW99&theme=tokyonight" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AlexJumaW99&theme=tokyonight&hide_border=true&background=0d1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF&sideLabels=8B949E&currStreakNum=ffffff&sideNums=ffffff&dates=8B949E" />
 </div>
 
