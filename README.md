@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:6C63FF&height=220&section=header&text=Alex%20Juma&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%7C%20Full-Stack%20%7C%20Desktop%20Expert&descAlignY=55&descSize=22&descColor=8B949E"/>
 
 <!-- Animated Typing -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=160&lines=Building+intelligent+systems+with+AI+%F0%9F%A4%96;Full-Stack+Developer+%26+ML+Engineer+%F0%9F%9A%80;Turning+data+into+decisions+%F0%9F%93%8A;Based+in+Winnipeg%2C+Canada+%F0%9F%87%A8%F0%9F%87%A6" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=150&lines=Building+intelligent+systems+with+AI+%F0%9F%A4%96;Full-Stack+Developer+%26+ML+Engineer+%F0%9F%9A%80;Turning+data+into+decisions+%F0%9F%93%8A;Based+in+Winnipeg%2C+Canada+%F0%9F%87%A8%F0%9F%87%A6" alt="Typing SVG" /></a>
 
 <br/>
 
