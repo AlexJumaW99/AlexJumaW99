@@ -34,6 +34,7 @@ class AlexJuma:
 me = AlexJuma()
 me.say_hi()
 ```
+<img align="right" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AlexJumaW99&theme=tokyonight" width="280"/>
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexJumaW99&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=8B949E&langs_count=6" width="280"/>
 
