@@ -35,7 +35,7 @@ me = AlexJuma()
 me.say_hi()
 ```
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexJumaW99&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=8B949E&langs_count=6" width="280" height="400"/>
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexJumaW99&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=8B949E&langs_count=6" width="280"/>
 
 - Currently exploring **AI Agents & LangGraph**
 - Passionate about **turning data into actionable insights**
