@@ -84,7 +84,7 @@ me.say_hi()
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AlexJumaW99&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&icon_color=6C63FF&text_color=8B949E&ring_color=6C63FF" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AlexJumaW99&theme=tokyonight" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AlexJumaW99&theme=tokyonight&hide_border=true&background=0d1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF&sideLabels=8B949E&currStreakNum=ffffff&sideNums=ffffff&dates=8B949E" />
 </div>
 
