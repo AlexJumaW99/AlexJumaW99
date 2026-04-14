@@ -103,11 +103,12 @@ me.say_hi()
 
 <div align="center">
 
->Si vis pacem, para bellum
-
 <a href="https://github.com/AlexJumaW99"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 <br/><br/>
+
+> *"Audentes Fortuna Iuvat."*
+
 <br/>
 
 <!-- Snake Animation -->
