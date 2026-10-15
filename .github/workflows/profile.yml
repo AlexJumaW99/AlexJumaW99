@@ -41,8 +41,6 @@ jobs:
           outputs: |
             dist/snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#161B22,#3C349A,#5952D2,#7978FB,#A9AFFE
             dist/snake-light.svg?palette=github-light&color_snake=#0E7490&color_dots=#EBEDF0,#CFD4FE,#9EA4FF,#6E6CED,#4843AA
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake.svg
 
       - name: Generate activity card
         env:

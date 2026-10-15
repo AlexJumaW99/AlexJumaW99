@@ -91,9 +91,9 @@ def summarise(created, data):
     if len(weeks) < 52:
         raise RuntimeError(f"calendar has only {len(weeks)} weeks")
     # "today" is the calendar's own latest date rather than the runner's
-    # clock: GitHub fixes each contribution's date when it is recorded, and
-    # the default window follows the token's timezone, so taking the date
-    # from the data keeps streaks consistent with the profile graph.
+    # clock. GitHub buckets days in the token's timezone; the Actions token
+    # gets UTC, which is also what anonymous visitors see on the profile
+    # graph, so the card and the graph agree day for day.
     today = dt.date.fromisoformat(flatten(last)[-1]["date"])
 
     counts = {}
