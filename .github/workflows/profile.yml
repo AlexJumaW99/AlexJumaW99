@@ -1,0 +1,64 @@
+name: Profile assets
+
+# Rebuilds the dynamic README images (3D activity card + snake) and publishes
+# them to the `output` branch. Everything is validated before publishing, so
+# a failed run leaves the previous images in place instead of broken ones.
+
+on:
+  schedule:
+    - cron: "23 */6 * * *" # every 6 hours, off the top of the hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile.yml"
+      - "scripts/brand.py"
+      - "scripts/build_activity.py"
+      - "scripts/check_svgs.py"
+      - "scripts/fonts/*.woff2"
+      - "scripts/fonts/metrics.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Generate snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#161B22,#3C349A,#5952D2,#7978FB,#A9AFFE
+            dist/snake-light.svg?palette=github-light&color_snake=#0E7490&color_dots=#EBEDF0,#CFD4FE,#9EA4FF,#6E6CED,#4843AA
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+
+      - name: Generate activity card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/build_activity.py --user "$OWNER" --out dist
+
+      - name: Validate
+        run: python3 scripts/check_svgs.py dist
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+          commit_message: Update profile assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

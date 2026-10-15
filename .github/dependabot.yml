@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # keeps the SHA-pinned actions in profile.yml current (one grouped PR a month)
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
