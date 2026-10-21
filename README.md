@@ -38,6 +38,9 @@ me.say_hi()
 
 ## <img src="https://raw.githubusercontent.com/AlexJumaW99/AlexJumaW99/main/assets/orb.svg" width="26" alt=""> What I build
 
+**🟢 Live: [SuperSplat Scene Tours](https://supersplat-tours.pages.dev)**, a 3D Gaussian Splat editor that runs in your browser. It is PlayCanvas's open-source SuperSplat, which I extended with cinematic camera paths, slides, captions and a presenter mode. **[Open it with a sample scene →](https://supersplat-tours.pages.dev/?load=https://raw.githubusercontent.com/playcanvas/engine/289bc2b0f93b3d023cefdbe062976b97c97ea4b9/examples/assets/splats/knock-community-hall.sog&focal=1.7,2,-0.8&angles=315,-14&distance=22&controls.maxZoom=30)**<br>
+<sub>Sample scene: “Knock Community Hall” by [scbenoit](https://superspl.at/user/scbenoit), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</sub>
+
 | 🤖 Agentic AI systems | 🧊 3D vision on the GPU |
 | :-- | :-- |
 | **[AdForge](https://github.com/AlexJumaW99/ads_veo)**<br>A crew of specialised agents (director, art director, cinematographer, editor, QA supervisor) that turns a product brief into consistent video ads with Veo 3.1 and Gemini 2.5. | **[trellis-blackwell](https://github.com/AlexJumaW99/trellis-blackwell)**<br>Microsoft's TRELLIS image-to-3D model, made to run on Linux with NVIDIA Blackwell GPUs. |
